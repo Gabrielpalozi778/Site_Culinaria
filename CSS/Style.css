@@ -1,0 +1,271 @@
+/* Exemplo de Reset CSS de Eric Meyer */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.Header_Home{
+    background-color: #AF2628;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: left;
+    align-items: center;
+    gap: 70px; 
+    padding-left: 5%;
+    padding: 20px 5%; 
+}
+.Pizza_Spn{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IMG_PZ{
+    width: 100%;
+    height: auto;
+    filter: brightness(40%);
+}
+.Section_Pizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Section_Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+    font-family: 'Racing Sans One';
+    font-size: 25px;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+.Section_Home:hover {
+    text-shadow:
+        0 0 5px #fff,
+        0 0 15px #ff4d4d,
+        0 0 30px #ff0000;
+}
+.Section_Home {
+    transition: 0.3s ease;
+}
+.Header_Home a {
+    text-decoration: none;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.italy-flag {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        rgba(0,146,70,0.67) 33.33%,
+        rgba(255,255,255,0.67) 33.33% 66.66%,
+        rgba(206,43,55,0.67) 66.66%
+    );
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 28px;
+    color: black;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.italy-title {
+    font-family: 'Caramel', sans-serif;
+    font-size: 100px;
+    line-height: 1.1;
+    color: #e10600; 
+    text-align: center;
+    text-shadow:
+        2px 2px 4px rgba(0,0,0,0.5),
+        0 0 10px rgba(255,0,0,0.4);
+}
+.culinaria-section {
+    background: #543030;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Georgia', serif;
+}
+.Culinaria_Pizza_Section{
+    background: #543030;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Georgia', serif;
+}
+.Culinaria_Salty_Section{
+    background: #543030;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Georgia', serif;
+}
+.Culinaria_Sweet_Section{
+    background: #543030;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Georgia', serif;
+}
+.Culinaria_Home_Section{
+    background: #543030;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Georgia', serif;
+    
+}
+.title-area {
+    padding: 60px 20px;
+    font-family: 'Racing Sans One', sans-serif;
+}
+.title-area2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Racing Sans One', sans-serif;
+}
+.title-area2_VP{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Racing Sans One', sans-serif;
+    background-color: darkorange;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.title-area2_SNP{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Racing Sans One', sans-serif;
+    background-color: burlywood;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.title-area2_D{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Racing Sans One', sans-serif;
+    background-color: blue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.title-area h1 {
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 300;
+}
+.title-line {
+    width: 300px;
+    height: 3px;
+    background: #f2f2f2;
+    margin: 20px auto 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+.text {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.image-box {
+    position: relative;
+    flex: 1;
+}
+.image-box img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    border-radius: 5%;
+}
+.image-box::before {
+    top: -10px;
+    left: -10px;
+    border-right: none;
+    border-bottom: none;
+}
+.image-box::after {
+    bottom: -10px;
+    right: -10px;
+    border-left: none;
+    border-top: none;
+}
+.bottom-stripes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bottom-stripes div {
+    width: 200px;
+    height: 15px;
+    background: #b22222;
+}
+.Name_Receipt{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding-top: 22px;
+}
