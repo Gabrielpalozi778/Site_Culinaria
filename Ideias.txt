@@ -1,0 +1,10 @@
+* Home está boa, porém muito vazia, melhorar o Header e deixzar ele mais Distinto e Atraente
+* o retangulo escaleno não é necessario, retira-lo e pensar sobre a relocalização
+* Parte abaixo de home falando brevemente sobre o site e a Italia
+* Fazer (possivelmente com Javascript) Um minimapa interativo que mostra divisóes administrativas da Italia e suas respectivas culinárias
+
+* Fazer uma página separada para a história, é possivel substituir a página existente.
+
+* Fazer uma página para receitas com subdivisões entre os produtos, mostrando receitas etc...
+
+* Adicionar Footer
